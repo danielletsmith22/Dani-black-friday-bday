@@ -115,7 +115,7 @@
     .events-grid {
       display: grid;
       grid-template-columns: 1fr;
-      gap: 1.5rem;
+      gap: 1.75rem;
     }
 
     @media (min-width: 720px) {
@@ -128,13 +128,12 @@
       background-color: var(--card-bg);
       border: 1px solid var(--card-border);
       border-radius: 12px;
-      padding: 1.75rem;
+      padding: 2.25rem 1.75rem 1.75rem;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
       position: relative;
-      overflow: hidden;
     }
 
     .event-card:hover {
@@ -150,16 +149,17 @@
 
     .must-rsvp-tag {
       position: absolute;
-      top: 1rem;
-      right: 1rem;
+      top: -12px;
+      right: 1.5rem;
       background-color: #ffffff;
       color: #000000;
-      font-size: 0.7rem;
+      font-size: 0.68rem;
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 0.08em;
-      padding: 0.25rem 0.65rem;
+      padding: 0.3rem 0.75rem;
       border-radius: 4px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
     }
 
     .event-date {
@@ -177,7 +177,6 @@
       font-weight: 700;
       color: #ffffff;
       margin-bottom: 0.85rem;
-      padding-right: 4.5rem;
     }
 
     .event-details {
@@ -368,11 +367,12 @@
             <li><span>🎤</span> <span><strong>Concert Venue:</strong> The Tabernacle</span></li>
             <li><span>📍</span> <span><strong>Concert Address:</strong> <a href="https://maps.google.com/?q=152+Luckie+Street+Atlanta+GA+30303" target="_blank" rel="noopener" class="address-link">152 Luckie Street, Atlanta, GA 30303</a></span></li>
             <li><span>🔥</span> <span><strong>Afterparty:</strong> El Malo immediately following the show (<a href="https://maps.google.com/?q=777+Memorial+Dr+SE+Ste+A102B+Atlanta+GA+30316" target="_blank" rel="noopener" class="address-link">777 Memorial Dr SE</a>)</span></li>
+            <li><span>💵</span> <span><strong>El Malo Cost:</strong> $20 Early Bird Ticket</span></li>
           </ul>
         </div>
         <div class="btn-group">
           <a href="https://www.ticketmaster.com/event/0E006556FAF979EA" target="_blank" rel="noopener" class="btn-link btn-primary">Belly Gang Tickets →</a>
-          <a href="https://www.mashupsessions.com/" target="_blank" rel="noopener" class="btn-link btn-outline">El Malo Afterparty Info →</a>
+          <a href="https://www.mashupsessions.com/" target="_blank" rel="noopener" class="btn-link btn-outline">El Malo $20 Early Bird Tickets →</a>
         </div>
       </article>
 
